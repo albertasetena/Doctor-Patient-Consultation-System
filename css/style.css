@@ -1,0 +1,197 @@
+/*bootstrap icons cdn*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+
+/*--------------------*/
+body
+{
+   background-color: rgb(248,249,250);
+}
+
+.body-wrapper
+   {
+      height: 600px;
+      max-height: 800px;
+   }
+
+   /*Header*/
+   .header-banner
+   {
+      background: url("../img/onlinecossystem.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 130px;
+   }
+
+   /*Login form*/
+
+   .login_body
+   {
+      background: url(img/blackdoctorbackground.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+   }
+
+   .img-home-background
+   {
+      margin-top: 0%;
+   }
+
+ .login-formwrapper 
+ {
+   margin-top: 15%;
+   float: right;
+   overflow: hidden;
+ }
+/*Patient Dash*/
+.patient-content
+{
+   
+   margin-bottom: 10px;
+   max-height: 1800px;
+}
+
+ .client-content-wrapper
+ {
+  
+   max-height: 1900px;
+   overflow: hidden;
+ }
+
+/*Sidebar*/
+.sidebar-container
+{
+   height: 385px;
+   overflow: hidden;
+   max-height: 800px;
+   font-size: 90%;
+}
+
+.admin-dash-avator .iconsize
+{
+   font-size: 50px;
+}
+
+.id-item
+{
+   font-size: 28px;
+   border: 1px solid #fff;
+   margin-top: 3px;
+   padding-left: 2px;
+}
+.sidebar-container-navbar li:hover
+{
+   
+
+}
+.sidebar-container-navbar li a:hover
+{
+   text-decoration: underline;
+   color: #0d6efd;
+}
+
+
+.table-scroller 
+{
+   display: block;
+   height: 217px; 
+   overflow-y: auto;
+  
+}
+
+/*Chatbot----------------------------*/
+.kommunicate-custom-iframe
+{
+   bottom: 50px !important;
+}
+.km-custom-widget-background-color
+{
+   background-color: #000040 !important;
+}
+.km-iframe-dimension-with-popup
+{
+   height: 620px !important;
+  }
+
+/*-------------------------------------*/
+
+/*Contact Us Page*/
+
+.contactus-banner
+{
+   background:  url(../img/contactBanner.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.fa-icons a:hover
+{
+   font-size: 35px;
+}
+
+
+
+/*--------------------------------------*/
+
+
+
+/*Footer*/
+.footer
+{
+   background-color: #000;
+ 
+   width: 100%;
+   position: fixed;
+   bottom: 0 ;
+   height: 40px;
+   color: #fff;
+   font-size: 10px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+
+}
+
+.footer p 
+{
+   padding:0;
+   
+}
+
+
+
+.footer-inner
+{
+   margin: 0 auto;
+   width:800px;
+   padding:10px;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+
+.page-footer, 
+.page-footer a,
+.page-footer a:link,
+.page-footer a:visited,
+.page-footer a:hover
+{
+   font-family: Arial;
+   font-size: 10px;
+   letter-spacing: normal;
+   word-spacing: normal;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: underline;
+   color: #2F7190;
+}
+
+.page-footer
+{
+   position: relative;
+   z-index: auto !important;
+   padding: 5px !important;
+   text-align: center !important;
+   text-decoration: none;
+   color: #fff;
+ 
+}
